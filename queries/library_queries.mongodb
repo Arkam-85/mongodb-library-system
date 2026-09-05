@@ -1,0 +1,93 @@
+// =====================================
+// MONGODB LIBRARY SYSTEM QUERIES
+// =====================================
+
+// SELECT DATABASE
+use("libraryDB");
+
+// =====================================
+// CREATE
+// =====================================
+
+db.books.insertOne({
+  title: "The Alchemist",
+  author: "Paulo Coelho",
+  genre: "Fiction",
+  year: 1988,
+  available: true
+});
+
+// =====================================
+// READ
+// =====================================
+
+db.books.find();
+
+db.authors.find();
+
+db.genres.find();
+
+// =====================================
+// SEARCH BOOKS
+// =====================================
+
+// Search by title
+db.books.find({
+  title: "1984"
+});
+
+// Search by author
+db.books.find({
+  author: "George Orwell"
+});
+
+// Search by genre
+db.books.find({
+  genre: "Dystopian"
+});
+
+// Search available books
+db.books.find({
+  available: true
+});
+
+// Books published after 1950
+db.books.find({
+  year: { $gt: 1950 }
+});
+
+// =====================================
+// SEARCH AUTHORS
+// =====================================
+
+// Search by author name
+db.authors.find({
+  name: "George Orwell"
+});
+
+// Search by country
+db.authors.find({
+  country: "United Kingdom"
+});
+
+// Authors born after 1950
+db.authors.find({
+  birthYear: { $gt: 1950 }
+});
+
+// =====================================
+// UPDATE
+// =====================================
+
+db.books.updateOne(
+  { title: "The Guide" },
+  { $set: { available: true } }
+);
+
+// =====================================
+// DELETE
+// =====================================
+
+db.books.deleteOne({
+  title: "The Alchemist"
+});

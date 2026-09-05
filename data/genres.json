@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Fantasy",
+    "description": "Fiction involving magical or supernatural elements"
+  },
+  {
+    "name": "Dystopian",
+    "description": "Stories about imagined societies with oppressive conditions"
+  },
+  {
+    "name": "History",
+    "description": "Books related to historical events and civilizations"
+  },
+  {
+    "name": "Fiction",
+    "description": "Literary works based primarily on imagination"
+  }
+]

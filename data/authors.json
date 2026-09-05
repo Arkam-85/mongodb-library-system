@@ -1,0 +1,22 @@
+[
+  {
+    "name": "J.K. Rowling",
+    "country": "United Kingdom",
+    "birthYear": 1965
+  },
+  {
+    "name": "George Orwell",
+    "country": "United Kingdom",
+    "birthYear": 1903
+  },
+  {
+    "name": "Yuval Noah Harari",
+    "country": "Israel",
+    "birthYear": 1976
+  },
+  {
+    "name": "R.K. Narayan",
+    "country": "India",
+    "birthYear": 1906
+  }
+]

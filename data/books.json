@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "year": 1997,
+    "available": true
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "year": 1949,
+    "available": true
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "year": 2011,
+    "available": true
+  },
+  {
+    "title": "The Guide",
+    "author": "R.K. Narayan",
+    "genre": "Fiction",
+    "year": 1958,
+    "available": true
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "year": 1945,
+    "available": true
+  }
+]
